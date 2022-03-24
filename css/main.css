@@ -18,6 +18,12 @@ img {
   width: 100%;
 }
 
+figcaption {
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
 nav ol {
   list-style-type: none;
 }
