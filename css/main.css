@@ -1,15 +1,16 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: "Patua One", sans-serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
 }
@@ -28,7 +29,12 @@ nav ol {
   list-style-type: none;
 }
 
-nav a:hover {
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
   color: #3f1622;
   text-decoration: none;
 }
