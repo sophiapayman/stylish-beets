@@ -3,7 +3,6 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   line-height: 1.5;
-  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -13,6 +12,8 @@ html {
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 img {
@@ -27,6 +28,9 @@ figcaption {
 
 nav ol {
   list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
 }
 
 a {
@@ -34,7 +38,25 @@ a {
   text-decoration: none;
 }
 
+figure > p {
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+blockquote > p {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+h2 > dl {
+  font-weight: bold;
+}
+
 a:hover {
   color: #3f1622;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+aside > ul {
+  list-style-type: circle;
 }
